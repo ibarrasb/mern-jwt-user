@@ -27,6 +27,7 @@ npm install
 ```
 ## ! When running the app, the server and the client need to be running concurrently in order to work !
 ## Usage
+You will need two terminals: 
 
 Run the command in the root of the directory to launch db server and react app
 change directory into client and start react app
@@ -46,7 +47,7 @@ To fix a bug or enhance an existing module, follow these steps:
 - Create a new branch (`git checkout -b improve-feature`)
 - Make the appropriate changes in the files
 - Add changes to reflect the changes made
-- Commit your changes (`git commit -am 'Improve feature'`)
+- Commit your changes (`git commit -m 'Improve feature'`)
 - Push to the branch (`git push origin improve-feature`)
 - Create a Pull Request 
 
