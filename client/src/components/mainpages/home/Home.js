@@ -3,13 +3,14 @@ import {GlobalState} from '../../../GlobalState'
 
 function Home() {
     const state = useContext(GlobalState)
+    const [isLogged] = state.UserAPI.isLogged
     const [name] = state.UserAPI.name
     console.log(name)
    
 
     return (
         <div>
-            <h1> Hello {name}</h1>
+            <h1> {isLogged ? `Welcome ${name}` : 'Home'}</h1>
         </div>
     );
 }

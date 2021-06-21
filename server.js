@@ -12,6 +12,8 @@ app.use(cors())
 //Routes
 app.use('/user', require('./routes/userRoutes'))
 
+//Remember to install all dependencies 
+//create dotenv file and link your mongodb URL
 //connect to mongodb
 const URI = process.env.MONGODB_URL
 mongoose.connect(URI, {
@@ -26,6 +28,7 @@ mongoose.connect(URI, {
 app.get('/', (req, res) => {
     res.json({msg: "MERN JWT"})
 })
+
 
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => {
