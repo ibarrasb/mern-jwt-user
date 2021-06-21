@@ -25,7 +25,7 @@ Run the command in the root of the directory to make sure you have all depeneden
 ```
 npm install 
 ```
-## ! When running the app the server and the client need to be running concurrently in order to work !
+## ! When running the app, the server and the client need to be running concurrently in order to work !
 ## Usage
 
 Run the command in the root of the directory to launch db server and react app
