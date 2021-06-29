@@ -1,4 +1,4 @@
-<h1 align="center">MERN JWT LOGIN PAGE BOILER PLATE v.2</h1>
+<h1 align="center">MERN JWT LOGIN PAGE BOILER PLATE v.3</h1>
 
 ![pic](mern-login.png)
   
@@ -7,6 +7,8 @@
 
 Second version of my Open Source MERN JWT Login Authentication. 
 Login and sign up page template to start a project from. Does Require Mongodb Atlas, and does require filling some information before it is able to run, so make sure you go through the folders and fill in the missing code. Be creative and make it yours. 
+
+[Click Here](https://mern-jwt-v3.herokuapp.com) to launch demo
 
 ***NEW FEATURES***
 -User profiles
